@@ -87,14 +87,13 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
             <scope>runtime</scope>
         </dependency>        
-        <!-- Enable Micrometer for prometheus metrics.
-         Default metrics are exposed though /actuator/prometheus endpoint
+ 
          <dependency>
              <groupId>io.micrometer</groupId>
              <artifactId>micrometer-registry-prometheus</artifactId>
              <scope>runtime</scope>
          </dependency>
-        -->
+        
 
         <!-- -->
         <dependency>
